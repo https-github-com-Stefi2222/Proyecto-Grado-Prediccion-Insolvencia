@@ -179,3 +179,33 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Bases de datos y datos masivos
+data/
+*.bak
+*.mdf
+*.ldf
+*.csv
+*.xlsx
+*.parquet
+*.sqlite
+
+# Credenciales y configuraciones privadas
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archivos temporales
+__pycache__/
+*.pyc
+*.log
+*.tmp
+
+# Configuración local
+.idea/
