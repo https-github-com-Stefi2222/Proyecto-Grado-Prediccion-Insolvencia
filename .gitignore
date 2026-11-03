@@ -209,3 +209,7 @@ __pycache__/
 
 # Configuración local
 .idea/
+
+# Entorno independiente de demostración
+.venv-demo/
+.venv-demo/
