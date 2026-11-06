@@ -214,4 +214,9 @@ __pycache__/
 .venv-demo/
 .venv-demo/
 
-/data/local/
+# Datos locales: conservar solo el ranking necesario para la demo
+!data/
+data/*
+!data/local/
+data/local/*
+!data/local/ranking_empresas_2021_2024.csv
