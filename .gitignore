@@ -213,3 +213,5 @@ __pycache__/
 # Entorno independiente de demostración
 .venv-demo/
 .venv-demo/
+
+/data/local/
